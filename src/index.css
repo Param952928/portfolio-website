@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+.darktheme {
+  background-color: #151515;
+  --white: #151515;
+  --black: #e9e4f0;
+  --yellow: #fff500;
+  --logo: invert(0.9);
+  --menu: invert(0%);
+}
+
+.lighttheme {
+  background-color: #e9e4f0;
+  --white: #e9e4f0;
+  --black: #151515;
+  --yellow: #fff500;
+  --logo: invert(0.1);
+  --menu: invert(100%);
+}

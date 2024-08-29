@@ -1,0 +1,120 @@
+.skills {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+.skills > h1 {
+  border-bottom: 1px solid var(--black);
+  font-size: 3rem;
+  margin-top: 10px;
+}
+.skills > .skillbox > DIV > img {
+  width: 80px;
+  height: 80px;
+}
+.skills > .skillbox {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  gap: 80px;
+  width: 90%;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.skills > .skillbox > DIV {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  border-radius: 20px;
+}
+.back {
+  display: flex;
+  flex-direction: column;
+  transition: all 400ms ease;
+}
+.back:hover {
+  transform: scale(1.1);
+}
+.back > h4 {
+  color: var(--white);
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .skills > .skillbox {
+    gap: 30px;
+  }
+  .skills > .skillbox > DIV {
+    width: 75px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    border-radius: 20px;
+  }
+  .skills > .skillbox > DIV > img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .skills > .skillbox {
+    gap: 30px;
+  }
+  .skills > .skillbox > DIV {
+    width: 100px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    border-radius: 20px;
+  }
+  .skills > .skillbox > DIV > img {
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skills > .skillbox {
+    gap: 50px;
+  }
+  .skills > .skillbox > DIV {
+    width: 100px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    border-radius: 20px;
+  }
+  .skills > .skillbox > DIV > img {
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+}

@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+* {
+  font-family: Open Sans;
+}
+
+.contact {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  height: 92%;
+}
+
+.contactbox {
+  font-size: 3rem;
+  box-sizing: border-box;
+  text-align: left;
+  display: block;
+  margin-top: 15px;
+  padding: 30px 50px;
+  font: bold 16px sans-serif;
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  border-radius: 30px;
+  transition: all 400ms ease;
+}
+
+.contactbox:hover {
+  border: 5px solid var(--black);
+  transform: scale(1.1);
+}
+
+.footerbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerbox > img {
+  width: 30px;
+  height: 30px;
+  filter: var(--logo);
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .contactbox {
+    padding: 15px 25px;
+    font: bold 16px sans-serif;
+    border: 1px solid var(--black);
+    background-color: var(--white);
+    border-radius: 30px;
+    transition: all 400ms ease;
+    font-size: 1.2rem;
+  }
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .contactbox {
+    padding: 15px 25px;
+    font: bold 16px sans-serif;
+    border: 1px solid var(--black);
+    background-color: var(--white);
+    border-radius: 30px;
+    transition: all 400ms ease;
+    font-size: 1.2rem;
+  }
+  .contactbox:hover {
+    border: 5px solid var(--black);
+    transform: scale(1.1);
+  }
+}/*# sourceMappingURL=Contact.css.map */
