@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import "../../App.css";
-import { useLocation, useNavigate, useParams } from "react-router-dom";scss
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { Logo, Moon_Black, Light, cross } from "../../assets/Index";
 import { menuicon } from "../../assets/Index";
 

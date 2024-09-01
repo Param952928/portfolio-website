@@ -51,6 +51,7 @@
   font-size: 1.4rem;
   text-decoration: none;
   color: var(--black);
+  cursor: pointer;
 }
 
 .r-nav {
