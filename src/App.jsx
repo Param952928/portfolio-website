@@ -11,10 +11,6 @@ import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
 
 const App = () => {
-  const navigate = useNavigate();
-  // useEffect(() => {
-  //   navigate("/");
-  // }, []);
 
   return (
     <div className="app">

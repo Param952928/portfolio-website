@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import "../../App.css";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";scss
 import { Logo, Moon_Black, Light, cross } from "../../assets/Index";
 import { menuicon } from "../../assets/Index";
 
@@ -105,20 +105,6 @@ const Navbar = () => {
               }}
             >
               Skills
-            </span>
-            <span
-              style={
-                activeCatagaryIndex === "projectpage"
-                  ? { borderBottom: "1px solid var(--black)" }
-                  : { borderBottom: "" }
-              }
-              id="projectpage"
-              onClick={(e) => {
-                navigate("/project");
-                setactiveCatagaryIndex(e.target.id);
-              }}
-            >
-              Projects
             </span>
             <span
               style={
